@@ -1,0 +1,33 @@
+README
+
+	1. (1) Main Program C++ : Compile & Execute
+
+		-> Compile: make
+	
+		-> Clean  : make clean
+		
+		-> Execute: ./nmpgen <map_in.json> <output.python>
+
+	   (2) Main Program Python: Execute
+
+		-> python3 map.py <map_in.json> <output.python>
+	
+	2. Generate Random Ordered Test Case
+	
+		-> python3 random_gen.py <map_in.json> <name_in.json>
+	
+	3. Execute the Mapping Python File
+	
+		-> python3 <output.python> <name_in.json> <result.json>
+	
+	4. Evaluate the Result
+	
+		-> python3 evaluate.py <map_in.json> <result.json>
+
+	5. Auto Run for all 9 Test Cases
+
+		-> bash test.bash     (Test for C++    program )
+		-> bash pytest.bash   (Test for Python program )
+		-> bash alltest.bash  (Test for both   programs)
+
+		(Note: Need to modify the path of files in test.bash)
