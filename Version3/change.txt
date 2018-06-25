@@ -1,0 +1,19 @@
+The change of version 3:
+
+1. fix the output json file format
+
+2. rewrite the evaluate.py
+
+3. modify Makefile with -O2 and -static
+
+4. We only submit 5 files to alpha_test
+
+  (1) README
+  
+  (2) nmpgen.cpp
+  
+  (3) nmpgen (binary file)
+  
+  (4) Makefile
+  
+  (5) map.py
