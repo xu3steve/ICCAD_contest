@@ -1,0 +1,18 @@
+README
+
+	1. ***(1) Main Program C++ : Compile & Execute
+
+		-> Compile: make
+	
+		-> Clean  : make clean
+		
+		-> Execute: ./nmpgen <map_in.json> <output.python>
+
+	   ***(2) Main Program Python: Execute
+
+		-> python3 map.py <map_in.json> <output.python>
+	
+	
+	2. Execute the Mapping Python File
+	
+		-> python3 <output.python> <name_in.json> <result.json>
