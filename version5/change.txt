@@ -1,0 +1,2 @@
+Find the pattern in the diffstring and take it out.
+It can reduce the python script size but increase the run time.
